@@ -10,7 +10,7 @@ import { ImageReddit } from './ImageFeed.models';
 })
 export class AppComponent {
   reddits: Observable<Array<ImageReddit>>;
-  _redditDataUrl: string = 'http://www.reddit.com/r/9gag.json';
+  _redditDataUrl: string = 'http://www.reddit.com/r/aww.json';
   title = 'infiniteScroll';
 
   constructor(private http: HttpClient) {
